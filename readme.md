@@ -1,2 +1,2 @@
-React Weather Application
-# ReactWeather
+React Timer Application
+# ReactTimer
