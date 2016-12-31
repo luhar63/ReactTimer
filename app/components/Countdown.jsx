@@ -27,18 +27,18 @@ var Countdown = React.createClass({
       }
     }
   },
-  componentWillUpdate: function (nextProps,nextState){
-    console.log();
-  },
-  componentWillReceiveProps:function (){
-
-  },
-  componentWillMount: function () {
-    console.log("Component will mount");
-  },
-  componentDidMount: function () {
-    console.log("Component did mount");
-  },
+  // componentWillUpdate: function (nextProps,nextState){
+  //   console.log();
+  // },
+  // componentWillReceiveProps:function (){
+  //
+  // },
+  // componentWillMount: function () {
+  //   console.log("Component will mount");
+  // },
+  // componentDidMount: function () {
+  //   console.log("Component did mount");
+  // },
   componentWillUnmount: function(){
     console.log("component did unmount");
     clearInterval(this.timer);
